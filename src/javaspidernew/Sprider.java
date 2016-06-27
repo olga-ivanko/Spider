@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
  *
  * @author homefulloflove
  */
-public class Sprider implements Runnable{
+public class Sprider implements Runnable {
 
     private final Pattern domainPattern = Pattern.compile("(http[s]?://)?([^/]+)(/.*)?");
     private final Pattern tagPattern = Pattern.compile("(?i)<a([^>]+)>(.+?)</a>");

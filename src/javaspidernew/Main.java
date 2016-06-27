@@ -16,6 +16,7 @@ public class Main {
      */
     public static void main(String[] args) {
       SearchHandler first = new SearchHandler("http://kneu.edu.ua/");
+      
       Thread thrd = new Thread(first);
       thrd.start();
     }
